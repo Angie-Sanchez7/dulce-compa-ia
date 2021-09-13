@@ -1,0 +1,148 @@
+.banner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  text-shadow: 0px 6px 6px black;
+  color: #fff;
+  top: 300px;
+  position: absolute;
+  font-size: 65px;
+}
+.images {
+  width: 50%;
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.salad {
+  width: 100%;
+  height: 80vh;
+}
+.donus {
+  width: 100%;
+  height: 80vh;
+}
+.container-pharse {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.phrase {
+  width: 63%;
+  padding: 0 200px;
+  font-size: 30px;
+}
+
+.bigote {
+  display: none;
+}
+.moño {
+  display: none;
+}
+.candies {
+  display: none;
+}
+.globos {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    top: 300px;
+    font-size: 43px;
+  }
+  .images {
+    margin-top: 150px;
+    width: 100%;
+  }
+
+  .phrase {
+    width: 50%;
+    padding: 0 1px;
+    font-size: 23px;
+  }
+  .salad {
+    width: 50%;
+    height: 50vh;
+  }
+  .donus {
+    width: 50%;
+    height: 50vh;
+  }
+  .filters {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .bigote {
+    display: inline;
+    width: 60%;
+  }
+  .moño {
+    display: inline;
+    width: 55%;
+  }
+  .candies {
+    display: inline;
+    width: 60%;
+  }
+  .globos {
+    display: inline;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .title {
+    top: 340px;
+    font-size: 33px;
+  }
+  .images {
+    margin-top: 250px;
+    width: 100%;
+  }
+
+  .phrase {
+    margin-top: 30px;
+    width: 90%;
+    padding: 0 1px;
+    font-size: 20px;
+  }
+  .salad {
+    width: 50%;
+    height: 30vh;
+  }
+  .donus {
+    width: 50%;
+    height: 30vh;
+  }
+  .filters {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .bigote {
+    display: inline;
+    width: 80%;
+  }
+  .moño {
+    display: inline;
+    width: 70%;
+  }
+  .candies {
+    display: inline;
+    width: 80%;
+  }
+  .globos {
+    display: inline;
+    width: 80%;
+  }
+}
