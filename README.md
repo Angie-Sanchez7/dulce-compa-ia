@@ -1,5 +1,5 @@
 # DESPLIEGUE
-Puedes ver el despliegue aqui https://dulcecompania.vercel.app/
+YOU CAN SEE THE PROJECT HERE https://dulcecompania.vercel.app/
 
 # Getting Started with Create React App
 
